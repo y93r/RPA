@@ -16,3 +16,11 @@ Automatizar a extração de informações de um sistema e envio de um relatório
 - Exportar o Relatório;
 - Pegar o relatório exportado, tratar e pegar as informações que queremos com pandas;
 - Preencher/Atualizar informações do sistema.
+
+##### Bs4
+Web scraping da tabela de criptomoedas do site CoinMarketCap:
+- Biblioteca requests para fazer solicitação HTTP;
+- Biblioteca BeautifulSoup para fazer a análise do código HTML e encontrar as informações desejadas;
+- Extração dos dados que serão armazenados em um dicionário;
+- Criar uma tabela com pandas com as informações do dicionário, transformando o índice em coluna;
+- Salvar essa tabela no formato excel com a data de hoje
